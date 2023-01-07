@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-image: url(https://c.wallhere.com/images/4d/88/f711ad143e987effb3cbcc89a0e0-1957233.jpg!d);
+}
+.container{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    width: 450px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 100vh;
+    border-radius: 10px;
+}
+.container:hover{
+    background-color:rgba(255, 255, 255, 0.438); ;
+}
+
+.btn{
+
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+    padding: 5px;
+ 
+    
+}
+.google-btn{
+    height: 30px;
+    background-color:rgb(66,133,244) ;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    padding: 3px;
+    align-items: center;
+    opacity: 0.70;
+
+}
+.google-btn:hover{
+    opacity: 1;
+}
+.google-btn picture{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.twitter-btn{
+    display: flex;
+    background-color: rgb(0,172,237);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    opacity: 0.70;
+}
+.twitter-btn:hover{
+    opacity: 1;
+}
+.twitter-btn picture{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    border-radius: 3px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.twitter-btn picture img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.google-btn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+
+.twitter-btn span{
+    color: white;
+    font-weight: 500;
+    padding:15px;
+}
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+
+}
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid white;
+}
+.separator span{
+    color: white;
+ 
+}
+.section-input{
+    display: flex;
+    gap: 1px;
+    width: 100%;
+    margin: 0;
+
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+    color: rgb(10, 10, 10);
+    font-weight: 400;
+   
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+}
+.section-input label input{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);;
+    border: 1px solid white;
+    padding:5px 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+
+
+}
+
+.section-input label input:hover{
+    background-color: white;
+    border: none;
+}
+
+label input{
+    width: 90%;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    gap: 10px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+label input:hover{
+    background-color: white;
+}
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+
+.submit-btn{
+    background-color: rgba(210, 130, 9, 0.89);
+    border: none;
+    border-bottom: 2px solid rgb(210,130,9);
+    cursor: pointer;
+    color: white;
+    font-weight: 420;
+    width: 40%;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.submit-btn:hover{
+    opacity: 0.75;
+}
+.hr{
+    border: none;
+}
